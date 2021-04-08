@@ -1,0 +1,20 @@
+.simpleBox {
+    margin: 1vw;
+}
+
+.newline {
+    white-space: pre-line;
+}
+
+.boxLevel1 {
+    background-color: rgb(231, 231, 231);
+}
+
+.boxLevel2 {
+    background-color: rgb(212, 212, 212);
+}
+
+.redWarningText {
+    font-weight: 600;
+    color: rgb(226, 55, 55)
+}
