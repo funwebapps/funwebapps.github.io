@@ -68,3 +68,8 @@
 .border {
   padding: 20px;
 }
+
+html,
+body {
+    overscroll-behavior-y: contain;
+}
