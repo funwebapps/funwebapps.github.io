@@ -22,9 +22,9 @@
             const width = 20;
             const height = 20;
             for(y = 0; y < height; y++){
-                document.getElementById("tickColumns").innerHTML += "<div id=\"column" + y.toString() + "\" class=\"column is-narrow buttons\">\n\n</div>"
+                document.getElementById("tickColumns").innerHTML += "<tr id="ticks"></tr>"
                 for(x = 0; x < width; x++) {
-                    document.getElementById("column" + y.toString()).innerHTML += tick;
+                    document.getElementById("ticks" + y.toString()).innerHTML += tick;
                 }
             }
         </script>
